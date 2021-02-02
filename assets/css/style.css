@@ -107,6 +107,7 @@ hr {
 }
 
 .header.fixed {
+    padding: 10px 0;
     background-color: #eb8b8d;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
 
@@ -1416,6 +1417,10 @@ hr {
         background-color: #eb8b8d;
     }
 
+    .nav.active {
+        display: block;
+    }
+
     .nav__link {
         display: block;
         margin: 0;
@@ -1426,6 +1431,9 @@ hr {
         display: block;
     }
 
+    .nav-toggle:focus {
+        outline: 0;
+    }
 
     /* Section */
     .section {
